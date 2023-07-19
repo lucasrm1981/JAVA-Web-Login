@@ -1,0 +1,157 @@
+.fonte {
+	font-family: Verdana;
+}
+
+.header-fundo {
+	padding: 15px;
+	text-align: center;
+}
+
+.direita {
+	text-align: right;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.menu {
+	float: left;
+	width: 20%;
+}
+
+.menuitem {
+	padding: 8px;
+	margin-top: 7px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+	float: left;
+	width: 60%;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+.right {
+	float: left;
+	width: 20%;
+	padding: 10px 15px;
+}
+
+@media only screen and (max-width:800px) {
+	/* For tablets: */
+	.main {
+		width: 80%;
+		padding: 0;
+	}
+	.right {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	/* Para exibição de dispositivos com resolução máxima de 500 pixels */
+	.menu, .main, .right {
+		width: 100%;
+	}
+}
+
+.image-text {
+	float: left;
+	border: transparent thin solid;
+	padding: 5px;
+	margin: 0px 10px 10px 0;
+	max-width: 186px;
+}
+
+.rodape {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 10px;
+	margin-top: 7px;
+	font-size: 12px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	display: none;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: black;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px black;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.centro {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
