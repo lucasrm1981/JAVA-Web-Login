@@ -13,8 +13,9 @@ https://tomcat.apache.org/download-90.cgi
 https://downloads.mysql.com/archives/c-j/ <br/>
 JDBC Driver for MySQL (Connector/J)
 <li>Padrão MVC <br/>Model: Formulários. <br/>View: Páginas Comuns. <br/>Conrtoller: Funções do CRUD</li>
-<li>JAVA DAO: Conexão com o Banco e os GET e SET</li>
-<li>JAVA BEAN: Funções Java com o Banco de Dados</li>
+<li>Pacotes com.crudjavaweb.dao: Conexão com o Banco e os GET e SET</li>
+<li>Pacotes com.crudjavaweb.bean: Funções Java com o Banco de Dados</li>
+<li>Pacote fileuploadservlet: Servlet para upload de imagem.</li>
 <li>Passagens de parâmetros por formulários pelos métodos GET e POST com o objeto objUsuário.</li>
 <li>Listagem das informações através de ArrayList</li>
 Nas informações tem a exibição dos dados do usuário com as imagens.
